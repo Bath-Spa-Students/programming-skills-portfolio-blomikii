@@ -7,4 +7,4 @@ h = float(input("What is the height: "))
  
 area = b*h/2
 
-print("The Area of the Triangle is: ",area)
+print("The Area of the Triangle is: ",area) 
