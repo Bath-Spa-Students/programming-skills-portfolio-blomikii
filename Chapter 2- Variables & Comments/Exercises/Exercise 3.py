@@ -1,6 +1,6 @@
 #Exercise 4: Stripping Names
 
-name = "\t Lebleb Maderazo\n"
+name = "\t Nate Archibald\n"
 
 print("Name with whitespace")
 print(name)
