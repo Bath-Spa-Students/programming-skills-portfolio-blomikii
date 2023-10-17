@@ -2,19 +2,19 @@
 
 pets = [
     {
-        "animal" : "cat",
-        "pet name" : "kyo",
-        "owner" : "sammie"
+        "animal" : "Cat",
+        "pet name" : "Kyo",
+        "owner" : "Samantha"
     },
     {
-        "animal" : "dog",
-        "pet name" : "chuchu",
-        "owner" : "mc"
+        "animal" : "Dog",
+        "pet name" : "Chuchu",
+        "owner" : "Harvey"
     },
     {
-        "animal" : "fish",
-        "pet name" : "glodielyn",
-        "owner" : "jhun"
+        "animal" : "Fish",
+        "pet name" : "Goldielyn",
+        "owner" : "Linus"
     },
 ]
 

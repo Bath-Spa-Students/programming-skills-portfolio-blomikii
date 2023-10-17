@@ -1,4 +1,4 @@
-# Exercise 5
+# Exercise 5: USB Shopper
 
 cost = 6
 money = 50

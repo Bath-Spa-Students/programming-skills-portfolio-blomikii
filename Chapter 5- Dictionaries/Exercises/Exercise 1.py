@@ -1,9 +1,9 @@
 # Exercise 1
 
 person = {
-    "first_name": "Ababa",
-    "last_name": "Cruz",
-    "age": 8,
+    "first_name": "Mark",
+    "last_name": "Lee",
+    "age": 24,
     "city": "Caloocan City"
 }
 
