@@ -1,7 +1,8 @@
 ## Exercise 2: Greetings
 
-name = ['Bobert', 'Archibald', 'William']
+name = ['Cole', 'Gilbert', 'Anne', 'Diana']
 
-print("Can't wait to hang out with you <3", name[0])
-print("Can't wait to hang out with you <3", name[1])
-print("Can't wait to hang out with you <3", name[2])
+print(f"I can't wait to hang out with you, {name[0]}!")
+print(f"I can't wait to hang out with you, {name[1]}!")
+print(f"I can't wait to hang out with you, {name[2]}!")
+print(f"I can't wait to hang out with you, {name[3]}!")
