@@ -1,6 +1,6 @@
 #Exercise 1: Names
 
-name = ['Bobert', 'Archibald', 'William']
+name = ['Cole', 'Gilbert', 'Anne', 'Diana']
 
 for name in name:
     print(name)
