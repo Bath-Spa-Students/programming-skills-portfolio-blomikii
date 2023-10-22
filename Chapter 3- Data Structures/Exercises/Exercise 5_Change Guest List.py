@@ -10,6 +10,7 @@
 
 ##############################################################################################################
 
+# Inviting Guests
 guests = ['Mark John', 'David Jose', 'Maria Theresa', 'Jo Vito']
 
 print (guests[0], "you're invited to my dinner.")
@@ -19,6 +20,7 @@ print (guests[3], "you're invited to my dinner.")
 
 print()
 
+# New guest invited
 print(guests[0], "can't come anymore.")
 del(guests[0])
 print("A new guest has been invited!")
@@ -26,6 +28,7 @@ guests.insert(0, 'Katherine Lee')
 
 print()
 
+# Update guest list
 print (guests[0], "you're invited to my dinner.")
 print (guests[1], "you're invited to my dinner.")
 print (guests[2], "you're invited to my dinner.")
