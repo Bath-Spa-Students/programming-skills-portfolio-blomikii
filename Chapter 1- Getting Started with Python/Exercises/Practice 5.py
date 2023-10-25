@@ -1,5 +1,7 @@
 # Practice 5: String Concatenation
 
+######################################################################################################
+
 string_1 = "Hey! "
 string_2 = "How are you? "
 string_3 = "I'm fine, thank you. "
