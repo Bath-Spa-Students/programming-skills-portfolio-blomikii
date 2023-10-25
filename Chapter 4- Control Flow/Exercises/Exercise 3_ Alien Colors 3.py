@@ -10,7 +10,7 @@
 
 •	 Write three versions of this program, making sure each message is printed for the appropriate color alien.'''
 
-###############################################################################################################
+##############################################################################################################
 
 # Alien Color: Green
 alien_color = 'green'
