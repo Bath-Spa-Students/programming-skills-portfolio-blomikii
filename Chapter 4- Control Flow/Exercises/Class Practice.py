@@ -21,3 +21,18 @@ if age >= 21:
 else: 
     print("You are not old enough for this job.")'''
 
+# If-Elif-Else 
+
+mood=int(input("How are you feeling today? Excited=1, Happy=2, Miserable=3, Nervous=4: "))
+
+if mood==1:
+     print("Good for you")
+elif mood==2:
+     print("Yay!")
+elif mood==3:
+    print("It's going to be ok.")
+elif mood==4:
+    print("It'll be fine! No worries.")
+else:
+     print("Out of Range")
+
