@@ -53,10 +53,10 @@ print()
 # Cancel invitations
 print("Apologies! Only two people can come to the dinner.\n")
 
-print(guests.pop(),"Sorry, you can't come to dinner.")
-print(guests.pop(),"Sorry, you can't come to dinner.")
-print(guests.pop(),"Sorry, you can't come to dinner.")
-print(guests.pop(),"Sorry, you can't come to dinner.")
+print(guests.pop(),"sorry, you can't come to dinner.")
+print(guests.pop(),"sorry, you can't come to dinner.")
+print(guests.pop(),"sorry, you can't come to dinner.")
+print(guests.pop(),"sorry, you can't come to dinner.")
 
 print()
 
