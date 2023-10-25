@@ -8,7 +8,7 @@
 
 the word on one line and then print its meaning indented on a second line. Use the newline character (\n) to insert a blank line between each word-meaning pair in your output.'''
 
-###############################################################################################################
+##############################################################################################################
 
 glossary = {
     "Tuples" : "A tuple is an ordered, and unchangeable, collection.",
