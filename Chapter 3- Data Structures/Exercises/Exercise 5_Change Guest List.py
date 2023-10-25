@@ -8,7 +8,7 @@
 
 •Print a second set of invitation messages, one for each person who is still in your list.'''
 
-##############################################################################################################
+#############################################################################################################
 
 # Inviting Guests
 guests = ['Mark John', 'David Jose', 'Maria Theresa', 'Jo Vito']

@@ -13,7 +13,7 @@ Use reverse() to change the order of your list again. Print the list to show it�
 Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
 Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed. '''
 
-##############################################################################################################
+#############################################################################################################
 
 # List of Places
 places = ['Switzerland', 'South of France', 'Monaco', 'Germany', 'Japan', 'Thailand']
