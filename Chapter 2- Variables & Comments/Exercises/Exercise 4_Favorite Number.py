@@ -4,6 +4,9 @@
 
 ######################################################################################################
 
+# Favourite number
 fav_num = 25
 
+# Formatting message
 print("My favourite number is:", fav_num)
+

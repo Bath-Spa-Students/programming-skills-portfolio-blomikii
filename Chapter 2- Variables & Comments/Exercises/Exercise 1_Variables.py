@@ -4,8 +4,12 @@
 
 ######################################################################################################
 
+# Printing old message
 old_message = "Hello, this is the old message!"
 print(old_message)
 
+# Printing new message
 new_message = "This is the new message!"
 print(new_message)  
+
+

@@ -6,7 +6,10 @@ Albert Einstein once said, “A person who never made a mistake never tried anyt
 
 ####################################################################################################
 
+# Author and Quote
 author = "Blair Waldorf"
 quote = "Whoever said money doesn’t buy happiness didn’t know where to shop."
 
+# Formatting the quote
 print(f'{author} once said, "{quote}"') 
+
