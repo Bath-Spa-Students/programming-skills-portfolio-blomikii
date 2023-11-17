@@ -6,6 +6,7 @@ Loop through the list of sandwich orders and print a message for each order, suc
 
 ###############################################################################################################
 
+# List of sandwhich orders
 sandwich_orders = [
     'tuna',
     'pastrami',
@@ -15,13 +16,21 @@ sandwich_orders = [
     'salami',
     'ham',
 ]
+
+# Empty list for finished sandwhiches
 finished_sandwiches = []
 
+# Making sandwhiches
 while sandwich_orders:
     current_sandwich = sandwich_orders.pop()
     print(f"I am currently making your {current_sandwich} sandwich.")
     finished_sandwiches.append(current_sandwich)
 
 print()
+
+# Finished sandwhiches
 for sandwich in finished_sandwiches:
     print(f"Your {sandwich} sandwich is ready!")
+
+
+    

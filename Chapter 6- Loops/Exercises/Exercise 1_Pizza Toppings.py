@@ -2,10 +2,12 @@
 
 ''' Write a loop that prompts the user to enter a series of pizza toppings until they enter a 'quit' value. As they enter each topping, print a message saying you’ll add that topping to their pizza. '''
 
-################################################################################################################
+###############################################################################################################
 
+# Empty List
 toppings = []
 
+# Asking for toppings
 while True:
     topping = input("What toppings would you like on your pizza? To finish, enter 'quit': ")
     if topping != 'quit':
@@ -14,6 +16,8 @@ while True:
     else:
         break
 
-print("Your pizza is ready with the followings: ")
+# Adding toppings
+print("\nYour pizza is ready with the followings: ")
 for topping in toppings:
     print(topping)
+

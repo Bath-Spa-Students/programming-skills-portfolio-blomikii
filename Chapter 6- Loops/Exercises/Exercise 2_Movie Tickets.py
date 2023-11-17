@@ -8,6 +8,7 @@ print("Welcome to the Cinema")
 
 prompt = "What is your age?"
 
+# Checking age 
 while True:
     age = input(prompt)
     age = int(age)

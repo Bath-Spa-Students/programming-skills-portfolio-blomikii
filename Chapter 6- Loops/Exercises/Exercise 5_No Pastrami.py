@@ -4,6 +4,7 @@
 
 ##############################################################################################################
 
+# List of sandwhich orders
 sandwich_orders = [
     'tuna',
     'pastrami',
@@ -13,19 +14,25 @@ sandwich_orders = [
     'salami',
     'pastrami',
 ]
+
+# Empty list for finished sandwhiches
 finished_sandwiches = []
 
+# Removing pastrami from the list
 print("Sorry, we're out of pastrami today.")
 while "pastrami" in sandwich_orders:
     sandwich_orders.remove("pastrami")
 
 print()
 
+# Making sandwhiches
 while sandwich_orders:
     current_sandwich = sandwich_orders.pop()
     print(f"I am currently making your {current_sandwich} sandwich.")
     finished_sandwiches.append(current_sandwich)
 
+# Finished sandwhiches
 print()
 for sandwich in finished_sandwiches:
     print(f"Your {sandwich} sandwich is ready!")
+
