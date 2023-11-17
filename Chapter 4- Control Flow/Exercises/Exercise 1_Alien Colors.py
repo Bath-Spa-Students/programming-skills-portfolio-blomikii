@@ -8,13 +8,15 @@ Write one version of this program that passes the if test and another that fails
 
 ###############################################################################################################
 
+# If alien color is green [passes]
 alien_color = 'green'
 
 if alien_color == 'green':
-    print("Yipee! You earned 5 points!")
+    print("Yipee, you shot a green alien! You earned 5 points!")
 
+# If alien color is red [fails, no output]
 alien_color = 'red'
 
 if alien_color == 'green':
-    print("Yipee! You earned 5 points!")
+    print("Yipee, you shot a green alien! You earned 5 points!")
 

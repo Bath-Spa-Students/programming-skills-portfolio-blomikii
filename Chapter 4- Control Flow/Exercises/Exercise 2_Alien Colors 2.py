@@ -11,19 +11,19 @@
 ############################################################################################################
 
 ## If block 
-
 alien_color = 'green'
 
 if alien_color == 'green':
-    print("Congrats! You just earned 5 points!")
+    print("Congrats, you shot a green alien! You just earned 5 points!")
 else:
-    print("Woah! You just earned 10 points!")
+    print("Woah, you shot a pink alien! You just earned 10 points!")
 
 ## Else Block
-
 alien_color = 'pink'
 
 if alien_color == 'green':
-    print("Congrats! You just earned 5 points!")
+    print("Congrats, you shot a green alien! You just earned 5 points!")
 else:
-    print("Woah! You just earned 10 points!")
+    print("Woah, you shot a pink alien! You just earned 10 points!")
+
+
