@@ -4,8 +4,14 @@
 
 ##############################################################################################################
 
+# Names in a list
 name = ['Cole', 'Gilbert', 'Anne', 'Diana']
 
-for name in name:
-    print(name)
+# Printing names individually
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+
     
+

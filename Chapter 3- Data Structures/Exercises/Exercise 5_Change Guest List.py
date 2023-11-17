@@ -13,10 +13,9 @@
 # Inviting Guests
 guests = ['Mark John', 'David Jose', 'Maria Theresa', 'Jo Vito']
 
-print (guests[0], "you're invited to my dinner.")
-print (guests[1], "you're invited to my dinner.")
-print (guests[2], "you're invited to my dinner.")
-print (guests[3], "you're invited to my dinner.")
+# Using For Loop
+for name in guests:
+    print(f"{name}, you're invited to my dinner.")
 
 print()
 
@@ -28,10 +27,8 @@ guests.insert(0, 'Katherine Lee')
 
 print()
 
-# Update guest list
-print (guests[0], "you're invited to my dinner.")
-print (guests[1], "you're invited to my dinner.")
-print (guests[2], "you're invited to my dinner.")
-print (guests[3], "you're invited to my dinner.")
+# Updating guest list
+for name in guests:
+    print(f"{name}, you're invited to my dinner.")
 
 

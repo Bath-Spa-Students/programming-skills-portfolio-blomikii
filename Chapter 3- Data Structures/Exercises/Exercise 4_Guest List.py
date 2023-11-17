@@ -4,8 +4,10 @@
 
 ############################################################################################################
 
+# Guest list
 guests = ['Mark John', 'David Jose', 'Maria Theresa', 'Jo Vito']
 
+# Inviting guests
 print (guests[0], "you're invited to my dinner.")
 print (guests[1], "you're invited to my dinner.")
 print (guests[2], "you're invited to my dinner.")

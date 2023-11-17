@@ -4,8 +4,10 @@
 
 ###########################################################################################################
 
+# Transportations in list
 fave_transpo = ['car', 'airplane', 'bus', 'motor']
 
+# Printing 
 for item in fave_transpo:
     if item  == "car":
         print("I explore the city with my Mini Cooper.")
@@ -15,3 +17,5 @@ for item in fave_transpo:
         print("I go to other cities with Jam Liner.")
     elif item == "motor":
         print("I commute using my Vespa.")
+
+

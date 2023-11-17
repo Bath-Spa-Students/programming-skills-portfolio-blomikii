@@ -13,9 +13,9 @@
 # Inviting guests
 guests = ['Mark John', 'David Jose', 'Maria Theresa']
 
-print(guests[0], "you're invited to my dinner.")
-print(guests[1], "you're invited to my dinner.")
-print(guests[2], "you're invited to my dinner.")
+# Using for loop
+for name in guests:
+    print(f"{name}, you're invited to my dinner.")
 
 print()
 
@@ -27,10 +27,9 @@ guests.insert(0, 'Katherine Lee')
 
 print()
 
-# Update guest list
-print(guests[0], "you're invited to my dinner.")
-print(guests[1], "you're invited to my dinner.")
-print(guests[2], "you're invited to my dinner.")
+# Using for loop
+for name in guests:
+    print(f"{name}, you're invited to my dinner.") 
 
 print()
 
@@ -41,22 +40,19 @@ guests.append('Joe Ando')
 guests.append('Toto Wolff')
 guests.append('Mario Paul')
 
-print(guests[0], "you're invited to my dinner.")
-print(guests[1], "you're invited to my dinner.")
-print(guests[2], "you're invited to my dinner.")
-print(guests[3], "you're invited to my dinner.")
-print(guests[4], "you're invited to my dinner.")
-print(guests[5], "you're invited to my dinner.")
+# Using for loop
+for name in guests:
+    print(f"{name}, you're invited to my dinner.") 
 
 print()
 
 # Cancel invitations
 print("Apologies! Only two people can come to the dinner.\n")
 
-print(guests.pop(),"sorry, you can't come to dinner.")
-print(guests.pop(),"sorry, you can't come to dinner.")
-print(guests.pop(),"sorry, you can't come to dinner.")
-print(guests.pop(),"sorry, you can't come to dinner.")
+# Using for loop
+for name in guests[:4]:
+    removed_guest = guests.pop()
+    print(f"{removed_guest}, sorry. You can't come to dinner.")
 
 print()
 
@@ -71,3 +67,4 @@ del(guests[0])
 
 # Empty list
 print(guests)
+
