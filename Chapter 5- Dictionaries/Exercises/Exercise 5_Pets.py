@@ -4,11 +4,12 @@
 
 ###########################################################################################################
 
+# Dictionaries of pets
 pets = [
     {
         "animal" : "Cat",
         "pet name" : "Kyo",
-        "owner" : "Samantha"
+        "owner" : "Annie"
     },
     {
         "animal" : "Dog",
