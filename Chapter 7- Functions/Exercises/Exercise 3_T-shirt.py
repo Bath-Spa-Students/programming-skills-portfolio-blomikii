@@ -8,5 +8,6 @@ def make_shirt(size, text):
     print(f"The size of my t-shirt is {size}.")
     print(f'It has a message saying, "{text}".')
 
-make_shirt('extra small', 'Roacwk On')
-make_shirt(size='medium', text='You light up my world :3')
+make_shirt('extra small', 'Rock On')
+make_shirt(size='medium', text='You light up my world <3')
+

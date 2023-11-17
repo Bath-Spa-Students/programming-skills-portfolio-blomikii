@@ -7,4 +7,6 @@
 def favorite_book(title):
     print(f'My favorite book is called "{title}".')
 
+# Calling the function
 favorite_book("The Ballad of Songbirds and Snakes")
+

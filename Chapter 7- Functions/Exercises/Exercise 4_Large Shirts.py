@@ -7,3 +7,7 @@
 def make_shirt(size='large', text='I love Python'):
     print(f'I am making a {size} shirt that says, "{text}"')
 
+make_shirt()
+make_shirt(size = 'medium')
+make_shirt(size = 'small', text = 'I love Javascript')
+

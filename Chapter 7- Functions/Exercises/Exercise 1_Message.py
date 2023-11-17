@@ -4,8 +4,11 @@
 
 ###############################################################################################################
 
+# Defining the function
 def display_message():
     message = "Today, I am learning about functions in Python."
     print(message)
 
+# Calling functions
 display_message()
+
